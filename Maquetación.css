@@ -1,0 +1,106 @@
+#Principal{
+    width: 1000px;
+    margin: auto;
+}
+
+#cabecera{
+    width: 1000px;
+    height: 50px;
+    background-color: #597FB8;
+}
+
+#cabecera ul{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#cabecera li{
+    display: inline;
+}
+
+#cabecera a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    margin-top: 50px;
+}
+
+#menu{
+    width: 250px;
+    height: 200px;
+    background-color: #38A47D;
+    float: left;
+}
+
+#contenido{
+    width: 440px;
+    height: 400px;
+    background-color: #AE82D5;
+    float: left;
+    margin: 0 25px 50px 25px;
+    padding: 30px;
+}
+
+#barra{
+    width: 200px;
+    height: 300px;
+    background-color: #8FD9DA;
+    float: left;
+}
+
+.parallax{
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background: url(fondo.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.servicios h3, .servicios h4{
+    text-align: center;
+}
+
+.servicio{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: #EEEE9E;
+    float: left;
+    margin: 50px;
+}
+
+#pie{
+    width: 1000px;
+    clear: both;
+    border-top:1px solid #ccc;
+}
+
+.acerca{
+    width: 250px;
+    float: left;
+    margin-right: 100px;
+}
+
+.menu{
+    width: 220px;
+    float: left;
+    margin-right: 100px;
+}
+
+.socialMedia{
+    width: 300px;
+    float: left;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    background-color: #77BBE9;
+    margin-left: 20px;
+}
